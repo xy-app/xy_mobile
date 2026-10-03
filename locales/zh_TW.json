@@ -1,0 +1,95 @@
+{
+  "name": "手機與安卓模擬器 (Mobile & Emulator)",
+  "description": "提供安卓 ADB 連線、模擬器操控、螢幕點擊滑動、文字輸入、截圖以及 iOS 模擬器控制等全套手機自動化能力",
+  "group": "行動裝置",
+  "actions": {
+    "MobileDevices": {
+      "display_name": "取得行動裝置與模擬器列表 (Get Devices)",
+      "description": "自動掃描並連線電腦上開啟的安卓模擬器（雷電/MuMu/夜神/AVD）或真機設備"
+    },
+    "MobileTap": {
+      "display_name": "螢幕點擊 (Mobile Tap)",
+      "description": "在手機或模擬器螢幕的指定位置模擬手指點擊或按兩下"
+    },
+    "MobileSwipe": {
+      "display_name": "滑動與拖曳 (Mobile Swipe)",
+      "description": "模擬手指在手機螢幕上進行上下左右滑動、長按拖曳"
+    },
+    "MobileInput": {
+      "display_name": "文字輸入 (Mobile Input Text)",
+      "description": "在目前焦點輸入框中輸入文字，支援中文與特殊字元輸入"
+    },
+    "MobileScreenCap": {
+      "display_name": "螢幕截圖 (Mobile Screen Capture)",
+      "description": "高速擷取手機目前螢幕畫面，可儲存為圖片檔案或在後續步驟找圖"
+    },
+    "MobileStartApp": {
+      "display_name": "啟動應用程式 (Start Mobile App)",
+      "description": "根據應用程式套件名稱啟動指定的手機 App"
+    },
+    "MobileStopApp": {
+      "display_name": "停止應用程式 (Stop Mobile App)",
+      "description": "強制關閉正在執行的指定手機 App"
+    },
+    "MobileInstall": {
+      "display_name": "安裝應用程式 (Install App / APK / IPA)",
+      "description": "自動將本機 APK 或 IPA 安裝套件安裝到目標手機或模擬器中"
+    },
+    "MobileUninstall": {
+      "display_name": "解除安裝應用程式 (Uninstall App)",
+      "description": "根據套件名稱從手機中完全解除安裝指定的 App"
+    },
+    "MobilePackages": {
+      "display_name": "取得已安裝應用程式清單 (List Installed Packages)",
+      "description": "查詢設備中安裝的所有第三方應用程式或系統應用程式的套件名稱列表"
+    },
+    "AdbShell": {
+      "display_name": "執行底層 Shell 指令 (Android Shell)",
+      "description": "直接向安卓設備發送並執行底層 Linux Shell 指令，返回輸出日誌"
+    },
+    "AdbKey": {
+      "display_name": "發送系統按鍵 (Android Key Event)",
+      "description": "模擬按下安卓手機實體按鍵（返回鍵、Home鍵、電源鍵、音量加減等）"
+    },
+    "AdbPush": {
+      "display_name": "推送檔案到設備 (Adb Push)",
+      "description": "將電腦本機檔案或資料夾高速上傳推送到手機儲存目錄中"
+    },
+    "AdbPull": {
+      "display_name": "從設備拉取檔案 (Adb Pull)",
+      "description": "從手機儲存中將檔案或截圖拉取下載到電腦本機指定路徑"
+    },
+    "AdbForward": {
+      "display_name": "連接埠映射轉發 (Adb Forward)",
+      "description": "設定電腦連接埠與手機端服務連接埠之間的 TCP 連接埠映射與流量轉發"
+    },
+    "AdbConnect": {
+      "display_name": "網路除錯連線 (Adb Connect)",
+      "description": "透過區域網路 IP 和連接埠（例如 192.168.1.100:5555）無線連線安卓設備進行除錯"
+    },
+    "AdbRestartServer": {
+      "display_name": "重啟 ADB 服務與自我修復 (Restart ADB Server)",
+      "description": "當連線卡死或設備斷線時，自動終止並重啟底層 ADB 常駐程式以恢復通訊"
+    },
+    "SimctlBoot": {
+      "display_name": "喚醒 iOS 模擬器 (Boot iOS Simulator)",
+      "description": "透過 macOS simctl 命令列啟動並引導指定的 iOS 模擬器實例"
+    },
+    "SimctlShutdown": {
+      "display_name": "關閉 iOS 模擬器 (Shutdown iOS Simulator)",
+      "description": "安全關閉正在執行中的 iOS 模擬器"
+    },
+    "SimctlOpenUrl": {
+      "display_name": "調起 URL Scheme / 網頁 (iOS Open URL)",
+      "description": "在 iOS 模擬器內開啟指定網頁網址或透過 Deep Link 喚起 App"
+    },
+    "SimctlPermission": {
+      "display_name": "自動授予隱私權限 (iOS Privacy Permission)",
+      "description": "在 iOS 模擬器中為指定 App 預先授予相機、相簿、通知或定位權限"
+    },
+    "SimctlAddMedia": {
+      "display_name": "相簿注入媒體 (iOS Add Media)",
+      "description": "將電腦本機圖片或影片檔案快速新增到 iOS 模擬器的系統相簿中"
+    }
+  }
+}

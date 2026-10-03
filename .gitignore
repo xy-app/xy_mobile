@@ -1,0 +1,14 @@
+﻿src/
+target/
+*.rs
+*.c
+*.cpp
+*.h
+*.hpp
+*.slint
+*.toml
+Cargo.toml
+Cargo.lock
+*.pdb
+*.exp
+*.lib

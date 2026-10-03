@@ -1,0 +1,95 @@
+{
+  "name": "手机与安卓模拟器 (Mobile & Emulator)",
+  "description": "提供安卓 ADB 连接、模拟器操控、屏幕点击滑动、文本输入、截图以及 iOS 模拟器控制等全套手机自动化能力",
+  "group": "移动端",
+  "actions": {
+    "MobileDevices": {
+      "display_name": "获取移动设备与模拟器列表 (Get Devices)",
+      "description": "自动扫描并连接电脑上打开的安卓模拟器（雷电/MuMu/夜神/AVD）或真机设备"
+    },
+    "MobileTap": {
+      "display_name": "屏幕点击 (Mobile Tap)",
+      "description": "在手机或模拟器屏幕的指定位置模拟手指点击或双击"
+    },
+    "MobileSwipe": {
+      "display_name": "滑动与拖拽 (Mobile Swipe)",
+      "description": "模拟手指在手机屏幕上进行上下左右滑动、长按拖拽"
+    },
+    "MobileInput": {
+      "display_name": "文本输入 (Mobile Input Text)",
+      "description": "在当前焦点输入框中输入文本，支持中文与特殊字符输入"
+    },
+    "MobileScreenCap": {
+      "display_name": "屏幕截图 (Mobile Screen Capture)",
+      "description": "高速捕获手机当前屏幕画面，可保存为图片文件或在后续步骤找图"
+    },
+    "MobileStartApp": {
+      "display_name": "启动应用 (Start Mobile App)",
+      "description": "根据应用包名启动指定的手机 App"
+    },
+    "MobileStopApp": {
+      "display_name": "停止应用 (Stop Mobile App)",
+      "description": "强制关闭正在运行的指定手机 App"
+    },
+    "MobileInstall": {
+      "display_name": "安装应用 (Install App / APK / IPA)",
+      "description": "自动将本地 APK 或 IPA 安装包安装到目标手机或模拟器中"
+    },
+    "MobileUninstall": {
+      "display_name": "卸载应用 (Uninstall App)",
+      "description": "根据包名从手机中完全卸载指定的 App"
+    },
+    "MobilePackages": {
+      "display_name": "获取已安装应用清单 (List Installed Packages)",
+      "description": "查询设备中安装的所有第三方应用或系统应用的包名列表"
+    },
+    "AdbShell": {
+      "display_name": "执行底层 Shell 指令 (Android Shell)",
+      "description": "直接向安卓设备发送并执行底层 Linux Shell 指令，返回输出日志"
+    },
+    "AdbKey": {
+      "display_name": "发送系统按键 (Android Key Event)",
+      "description": "模拟按下安卓手机实体按键（返回键、Home键、电源键、音量加减等）"
+    },
+    "AdbPush": {
+      "display_name": "推送文件到设备 (Adb Push)",
+      "description": "将电脑本地文件或文件夹高速上传推送到手机存储目录中"
+    },
+    "AdbPull": {
+      "display_name": "从设备拉取文件 (Adb Pull)",
+      "description": "从手机存储中将文件或截图拉取下载到电脑本地指定路径"
+    },
+    "AdbForward": {
+      "display_name": "端口映射转发 (Adb Forward)",
+      "description": "设置电脑端口与手机端服务端口之间的 TCP 端口映射与流量转发"
+    },
+    "AdbConnect": {
+      "display_name": "网络调试连接 (Adb Connect)",
+      "description": "通过局域网 IP 和端口（例如 192.168.1.100:5555）无线连接安卓设备进行调试"
+    },
+    "AdbRestartServer": {
+      "display_name": "重启 ADB 服务与自愈 (Restart ADB Server)",
+      "description": "当连接卡死或设备掉线时，自动杀掉并重启底层 ADB 守护进程以恢复通信"
+    },
+    "SimctlBoot": {
+      "display_name": "唤醒 iOS 模拟器 (Boot iOS Simulator)",
+      "description": "通过 macOS simctl 命令行启动并引导指定的 iOS 模拟器实例"
+    },
+    "SimctlShutdown": {
+      "display_name": "关闭 iOS 模拟器 (Shutdown iOS Simulator)",
+      "description": "安全关闭正在运行中的 iOS 模拟器"
+    },
+    "SimctlOpenUrl": {
+      "display_name": "调起 URL Scheme / 网页 (iOS Open URL)",
+      "description": "在 iOS 模拟器内打开指定网页网址或通过 Deep Link 唤起 App"
+    },
+    "SimctlPermission": {
+      "display_name": "自动授予隐私权限 (iOS Privacy Permission)",
+      "description": "在 iOS 模拟器中为指定 App 预先授予相机、相册、通知或定位权限"
+    },
+    "SimctlAddMedia": {
+      "display_name": "相册注入媒体 (iOS Add Media)",
+      "description": "将电脑本地图片或视频文件快速添加到 iOS 模拟器的系统相册中"
+    }
+  }
+}

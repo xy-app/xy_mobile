@@ -1,0 +1,95 @@
+{
+  "name": "Mobile & Android Emulator (Mobile & Emulator)",
+  "description": "Provides Android ADB connection, emulator control, screen tap/swipe, text input, screenshot capture, and iOS Simctl controls",
+  "group": "Mobile Automation",
+  "actions": {
+    "MobileDevices": {
+      "display_name": "Get Mobile Devices & Emulators",
+      "description": "Scan and list connected Android devices, emulators (MuMu, LDPlayer, Nox), or iOS simulators"
+    },
+    "MobileTap": {
+      "display_name": "Mobile Tap / Click",
+      "description": "Simulate touch tap or double tap at coordinates on mobile device screen"
+    },
+    "MobileSwipe": {
+      "display_name": "Mobile Swipe & Drag",
+      "description": "Simulate finger swipe gestures or drag-and-drop operations on screen"
+    },
+    "MobileInput": {
+      "display_name": "Mobile Input Text",
+      "description": "Input text into focused field on mobile device with Unicode support"
+    },
+    "MobileScreenCap": {
+      "display_name": "Mobile Screen Capture",
+      "description": "Capture high-speed screenshot of current device screen into image or file"
+    },
+    "MobileStartApp": {
+      "display_name": "Start Mobile App",
+      "description": "Launch designated application on mobile device by package name or bundle ID"
+    },
+    "MobileStopApp": {
+      "display_name": "Stop Mobile App",
+      "description": "Force stop or terminate a running application on the mobile device"
+    },
+    "MobileInstall": {
+      "display_name": "Install Mobile App (APK / IPA)",
+      "description": "Silently install an APK or IPA package file onto the target device"
+    },
+    "MobileUninstall": {
+      "display_name": "Uninstall Mobile App",
+      "description": "Uninstall designated application completely from target device"
+    },
+    "MobilePackages": {
+      "display_name": "List Installed Packages",
+      "description": "Retrieve list of all installed packages (third-party or system) on the device"
+    },
+    "AdbShell": {
+      "display_name": "Execute ADB Shell Command",
+      "description": "Execute arbitrary low-level Android Linux shell command via ADB and capture stdout"
+    },
+    "AdbKey": {
+      "display_name": "Send Android Key Event",
+      "description": "Send hardware key events (Home, Back, Power, Volume, Enter) to the device"
+    },
+    "AdbPush": {
+      "display_name": "Push File to Device (Adb Push)",
+      "description": "Upload files or directories from host computer to mobile device storage"
+    },
+    "AdbPull": {
+      "display_name": "Pull File from Device (Adb Pull)",
+      "description": "Download files or screenshots from mobile device storage to host PC"
+    },
+    "AdbForward": {
+      "display_name": "Port Forwarding (Adb Forward)",
+      "description": "Forward socket connections from host port to device port over ADB"
+    },
+    "AdbConnect": {
+      "display_name": "Connect Remote ADB Device",
+      "description": "Connect to an Android device over Wi-Fi/LAN via TCP/IP address and port"
+    },
+    "AdbRestartServer": {
+      "display_name": "Restart ADB Server",
+      "description": "Kill and restart background ADB server process to recover from frozen connections"
+    },
+    "SimctlBoot": {
+      "display_name": "Boot iOS Simulator",
+      "description": "Boot target iOS simulator instance via macOS simctl utility"
+    },
+    "SimctlShutdown": {
+      "display_name": "Shutdown iOS Simulator",
+      "description": "Safely shut down running iOS simulator instance"
+    },
+    "SimctlOpenUrl": {
+      "display_name": "Open URL / Scheme on iOS",
+      "description": "Open URL webpage or trigger custom deep-link scheme inside iOS simulator"
+    },
+    "SimctlPermission": {
+      "display_name": "Grant iOS Privacy Permissions",
+      "description": "Pre-grant camera, photo, notification, or location permissions to iOS app"
+    },
+    "SimctlAddMedia": {
+      "display_name": "Add Media to iOS Simulator",
+      "description": "Inject photos or videos from host computer directly into iOS simulator photo library"
+    }
+  }
+}

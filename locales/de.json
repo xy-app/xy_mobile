@@ -1,0 +1,95 @@
+{
+  "name": "Mobilgeräte & Android-Emulator (Mobile & Emulator)",
+  "description": "Bietet Android-ADB-Verbindungen, Emulatorsteuerung, Tippen/Wischen, Texteingabe, Screenshots und iOS-Simctl-Befehle",
+  "group": "Mobile Automatisierung",
+  "actions": {
+    "MobileDevices": {
+      "display_name": "Mobilgeräte & Emulatoren auflisten",
+      "description": "Scannt und listet verbundene Android-Geräte, Emulatoren oder iOS-Simulatoren auf"
+    },
+    "MobileTap": {
+      "display_name": "Auf Bildschirm tippen (Tap)",
+      "description": "Simuliert Fingertippen oder Doppeltippen an bestimmten Bildschirmkoordinaten"
+    },
+    "MobileSwipe": {
+      "display_name": "Wischen & Ziehen (Swipe)",
+      "description": "Simuliert Wischgesten oder Drag-and-Drop auf dem Touchscreen"
+    },
+    "MobileInput": {
+      "display_name": "Text eingeben",
+      "description": "Gibt Text in das fokussierte Eingabefeld ein (inkl. Unicode)"
+    },
+    "MobileScreenCap": {
+      "display_name": "Bildschirmaufnahme (Screenshot)",
+      "description": "Erstellt einen schnellen Screenshot des aktuellen Bildschirms"
+    },
+    "MobileStartApp": {
+      "display_name": "App starten",
+      "description": "Startet eine App auf dem Gerät über ihren Paketnamen"
+    },
+    "MobileStopApp": {
+      "display_name": "App beenden",
+      "description": "Erzwingt das Beenden einer laufenden Anwendung auf dem Gerät"
+    },
+    "MobileInstall": {
+      "display_name": "App installieren (APK / IPA)",
+      "description": "Installiert eine lokale APK- oder IPA-Datei auf dem Zielgerät"
+    },
+    "MobileUninstall": {
+      "display_name": "App deinstallieren",
+      "description": "Deinstalliert die angegebene Anwendung vollständig vom Gerät"
+    },
+    "MobilePackages": {
+      "display_name": "Installierte Pakete auflisten",
+      "description": "Ruft die Liste aller installierten Pakete auf dem Gerät ab"
+    },
+    "AdbShell": {
+      "display_name": "ADB-Shell-Befehl ausführen",
+      "description": "Führt Shell-Befehle über ADB direkt auf dem Android-Gerät aus"
+    },
+    "AdbKey": {
+      "display_name": "Android-Tastenereignis senden",
+      "description": "Sendet Tastenereignisse wie Zurück, Home oder Ein/Aus an das Gerät"
+    },
+    "AdbPush": {
+      "display_name": "Datei auf Gerät übertragen (Adb Push)",
+      "description": "Überträgt lokale Dateien vom Computer auf den Speicher des Mobilgeräts"
+    },
+    "AdbPull": {
+      "display_name": "Datei von Gerät herunterladen (Adb Pull)",
+      "description": "Lädt Dateien oder Screenshots vom Mobilgerät auf den PC herunter"
+    },
+    "AdbForward": {
+      "display_name": "Port-Weiterleitung (Adb Forward)",
+      "description": "Richtet Port-Weiterleitung zwischen PC und Mobilgerät ein"
+    },
+    "AdbConnect": {
+      "display_name": "Remote-ADB-Gerät verbinden",
+      "description": "Verbindet ein Android-Gerät drahtlos über WLAN/LAN mit IP und Port"
+    },
+    "AdbRestartServer": {
+      "display_name": "ADB-Server neu starten",
+      "description": "Beendet und startet den ADB-Dienst neu, um Hänger und Verbindungsverluste zu beheben"
+    },
+    "SimctlBoot": {
+      "display_name": "iOS-Simulator starten",
+      "description": "Startet eine iOS-Simulator-Instanz über das macOS-Dienstprogramm simctl"
+    },
+    "SimctlShutdown": {
+      "display_name": "iOS-Simulator herunterfahren",
+      "description": "Fährt eine laufende iOS-Simulator-Instanz sicher herunter"
+    },
+    "SimctlOpenUrl": {
+      "display_name": "URL / Scheme auf iOS öffnen",
+      "description": "Öffnet eine Webseite oder ruft Deep-Links im iOS-Simulator auf"
+    },
+    "SimctlPermission": {
+      "display_name": "iOS-Berechtigungen automatisch erteilen",
+      "description": "Erteilt Apps im iOS-Simulator vorab Berechtigungen für Kamera, Fotos oder Standort"
+    },
+    "SimctlAddMedia": {
+      "display_name": "Medien zum iOS-Simulator hinzufügen",
+      "description": "Fügt Fotos oder Videos direkt in die Fotobibliothek des iOS-Simulators ein"
+    }
+  }
+}

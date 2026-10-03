@@ -1,0 +1,95 @@
+{
+  "name": "モバイル＆Androidエミュレータ (Mobile & Emulator)",
+  "description": "Android ADB接続、エミュレータ操作、タップ・スワイプ、テキスト入力、画面キャプチャ、iOSシミュレータ制御を提供します",
+  "group": "モバイル自動化",
+  "actions": {
+    "MobileDevices": {
+      "display_name": "モバイル端末・エミュレータ一覧取得",
+      "description": "PC上で起動中のAndroidエミュレータや実機端末を自動検出し一覧取得します"
+    },
+    "MobileTap": {
+      "display_name": "画面タップ（クリック）",
+      "description": "端末やエミュレータ画面の指定座標をタップまたはダブルタップします"
+    },
+    "MobileSwipe": {
+      "display_name": "スワイプ・ドラッグ",
+      "description": "画面上で上下左右のスワイプ操作や長押しドラッグをシミュレートします"
+    },
+    "MobileInput": {
+      "display_name": "テキスト入力",
+      "description": "現在のアクティブな入力欄にテキストを入力します（日本語や特殊文字対応）"
+    },
+    "MobileScreenCap": {
+      "display_name": "画面キャプチャ（スクリーンショット）",
+      "description": "端末の現在画面を高速キャプチャし、画像ファイルとして保存または画像認識に利用します"
+    },
+    "MobileStartApp": {
+      "display_name": "アプリ起動",
+      "description": "パッケージ名またはバンドルIDを指定してアプリを起動します"
+    },
+    "MobileStopApp": {
+      "display_name": "アプリ停止（強制終了）",
+      "description": "実行中の指定アプリを強制終了します"
+    },
+    "MobileInstall": {
+      "display_name": "アプリインストール (APK/IPA)",
+      "description": "ローカルのAPKまたはIPAファイルを端末・エミュレータに自動インストールします"
+    },
+    "MobileUninstall": {
+      "display_name": "アプリアンインストール",
+      "description": "パッケージ名を指定して対象アプリを完全にアンインストールします"
+    },
+    "MobilePackages": {
+      "display_name": "インストール済みアプリ一覧取得",
+      "description": "端末内にインストールされているサードパーティ製またはシステムアプリの一覧を取得します"
+    },
+    "AdbShell": {
+      "display_name": "ADBシェルコマンド実行",
+      "description": "ADB経由で端末のLinuxシェルコマンドを直接実行し、標準出力を取得します"
+    },
+    "AdbKey": {
+      "display_name": "システムキーイベント送信",
+      "description": "ホーム、戻る、電源、音量などのハードウェアキーイベントを送信します"
+    },
+    "AdbPush": {
+      "display_name": "端末へファイル転送 (Adb Push)",
+      "description": "PCのローカルファイルまたはフォルダを端末のストレージに高速転送します"
+    },
+    "AdbPull": {
+      "display_name": "端末からファイル取得 (Adb Pull)",
+      "description": "端末ストレージ内のファイルや写真をPCの指定フォルダにダウンロードします"
+    },
+    "AdbForward": {
+      "display_name": "ポートフォワーディング (Adb Forward)",
+      "description": "PCのローカルポートと端末側ポート間でソケット転送を設定します"
+    },
+    "AdbConnect": {
+      "display_name": "ネットワークデバッグ接続 (Adb Connect)",
+      "description": "Wi-Fi経由でIPアドレスとポートを指定して端末とワイヤレス接続します"
+    },
+    "AdbRestartServer": {
+      "display_name": "ADBサーバー再起動・自動復旧",
+      "description": "接続不具合やフリーズ時にバックグラウンドのADBプロセスを再起動して復旧します"
+    },
+    "SimctlBoot": {
+      "display_name": "iOSシミュレータ起動",
+      "description": "macOSのsimctl経由で指定したiOSシミュレータを起動します"
+    },
+    "SimctlShutdown": {
+      "display_name": "iOSシミュレータシャットダウン",
+      "description": "稼働中のiOSシミュレータを安全にシャットダウンします"
+    },
+    "SimctlOpenUrl": {
+      "display_name": "URL Scheme / Webページ起動 (iOS)",
+      "description": "iOSシミュレータ内で指定したURLを開くかディープリンクでアプリを起動します"
+    },
+    "SimctlPermission": {
+      "display_name": "iOSプライバシー権限自動付与",
+      "description": "iOSシミュレータ上のアプリに対してカメラや写真、位置情報の権限を事前付与します"
+    },
+    "SimctlAddMedia": {
+      "display_name": "写真・メディア追加 (iOS)",
+      "description": "PC内の画像や動画ファイルをiOSシミュレータの写真ライブラリに転送します"
+    }
+  }
+}

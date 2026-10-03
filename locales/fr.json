@@ -1,0 +1,95 @@
+{
+  "name": "Mobiles & Émulateurs Android (Mobile & Emulator)",
+  "description": "Fournit les connexions ADB Android, le contrôle d'émulateurs, tap/swipe, saisie de texte et contrôle iOS",
+  "group": "Automatisation mobile",
+  "actions": {
+    "MobileDevices": {
+      "display_name": "Lister les appareils et émulateurs",
+      "description": "Détecte et liste les appareils Android, émulateurs ou simulateurs iOS connectés"
+    },
+    "MobileTap": {
+      "display_name": "Taper sur l'écran (Tap)",
+      "description": "Simule un toucher simple ou double aux coordonnées indiquées"
+    },
+    "MobileSwipe": {
+      "display_name": "Glisser & déposer (Swipe)",
+      "description": "Simule des mouvements de balayage ou de glisser-déposer sur l'écran"
+    },
+    "MobileInput": {
+      "display_name": "Saisir du texte",
+      "description": "Saisit du texte dans le champ actif avec prise en charge Unicode"
+    },
+    "MobileScreenCap": {
+      "display_name": "Capture d'écran mobile",
+      "description": "Capture rapidement l'écran de l'appareil mobile dans une image ou un fichier"
+    },
+    "MobileStartApp": {
+      "display_name": "Démarrer l'application mobile",
+      "description": "Lance l'application spécifiée par son nom de paquet ou Bundle ID"
+    },
+    "MobileStopApp": {
+      "display_name": "Arrêter l'application mobile",
+      "description": "Force l'arrêt d'une application en cours d'exécution sur l'appareil"
+    },
+    "MobileInstall": {
+      "display_name": "Installer l'application (APK / IPA)",
+      "description": "Installe silencieusement un package APK ou IPA sur l'appareil"
+    },
+    "MobileUninstall": {
+      "display_name": "Désinstaller l'application",
+      "description": "Désinstalle complètement l'application spécifiée de l'appareil"
+    },
+    "MobilePackages": {
+      "display_name": "Lister les paquets installés",
+      "description": "Récupère la liste de tous les paquets installés sur l'appareil"
+    },
+    "AdbShell": {
+      "display_name": "Exécuter une commande ADB Shell",
+      "description": "Exécute une commande shell Linux sur l'appareil Android via ADB"
+    },
+    "AdbKey": {
+      "display_name": "Envoyer un événement touche Android",
+      "description": "Envoie des événements de touches physiques (Retour, Accueil, Volume)"
+    },
+    "AdbPush": {
+      "display_name": "Transférer un fichier vers l'appareil (Adb Push)",
+      "description": "Transfère des fichiers de l'ordinateur vers la mémoire du mobile"
+    },
+    "AdbPull": {
+      "display_name": "Télécharger un fichier de l'appareil (Adb Pull)",
+      "description": "Télécharge des fichiers ou captures depuis l'appareil vers l'ordinateur"
+    },
+    "AdbForward": {
+      "display_name": "Redirection de port (Adb Forward)",
+      "description": "Redirige les connexions d'un port local vers un port de l'appareil"
+    },
+    "AdbConnect": {
+      "display_name": "Connexion ADB réseau sans fil",
+      "description": "Connecte un appareil Android sans fil via son adresse IP et port"
+    },
+    "AdbRestartServer": {
+      "display_name": "Redémarrer le serveur ADB",
+      "description": "Tue et redémarre le démon ADB pour rétablir une connexion bloquée"
+    },
+    "SimctlBoot": {
+      "display_name": "Démarrer le simulateur iOS",
+      "description": "Démarre une instance de simulateur iOS via l'outil simctl de macOS"
+    },
+    "SimctlShutdown": {
+      "display_name": "Éteindre le simulateur iOS",
+      "description": "Éteint en toute sécurité le simulateur iOS en cours d'exécution"
+    },
+    "SimctlOpenUrl": {
+      "display_name": "Ouvrir une URL ou un schéma sur iOS",
+      "description": "Ouvre une URL ou un lien profond (Deep Link) dans le simulateur iOS"
+    },
+    "SimctlPermission": {
+      "display_name": "Accorder automatiquement les autorisations iOS",
+      "description": "Accorde préalablement les autorisations caméra, photos ou position sur iOS"
+    },
+    "SimctlAddMedia": {
+      "display_name": "Ajouter des médias au simulateur iOS",
+      "description": "Injecte des photos ou vidéos directement dans la galerie du simulateur iOS"
+    }
+  }
+}
